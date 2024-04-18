@@ -1,0 +1,165 @@
+.sec-title{
+  font-size: calc(2rem + .5vw);
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.title-line{
+  background-color: #ce7b29;
+  border: none;
+  height: .25rem;
+  margin-bottom: 2rem;
+  width: 3rem;
+}
+
+
+
+.navbar {
+  background-color: rgb(0, 0, 0); 
+}
+
+
+.nav-link,
+.navbar-brand {
+  color: rgb(255, 255, 255); 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links a:hover {
+  background-color: gray;
+  color: #ffffff;
+}
+
+
+.nav-links a.active {
+  background-color: gray;
+  color: #100f0f;
+}
+
+.nav-link,
+.navbar-brand {
+  font-size: 28px;
+}
+
+.nav-links :hover{
+  background-color: gray!important;
+  cursor: pointer;
+  color:#100f0f;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.logo-nav{
+  cursor: pointer;
+}
+
+.imagen-cambiar-tamaño {
+  width: 100px;
+  height: auto; 
+
+  transition: width 0.3s, height 0.3s;
+}
+
+.imagen-cambiar-tamaño:hover {
+  width: 120px;
+}
+
+/* Estilos de la portada de la web*/
+.portada{
+  background-image: url("../img/coche-deportivo-oscuro-sobre-fondo-oscuro.jpg");
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 100%, 100% 85%, 100% 0, 0 0);
+  height: 1000px;
+  width: 100%;
+}
+
+
+/* Estilos de la barra de los valores.*/
+.cards3{
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto;
+  max-width: 1200px;
+  width: 95%;
+}
+  .cards3 .elem{
+    display: flex;
+    max-width: 350px;
+    width: 30%;
+  }
+    .cards3 .elem h3{
+      font-size: calc(1rem + 0.8vw);
+      text-align: center;
+    } 
+    .cards3 .elem p{
+      font-size: calc(.8rem + .3vw);
+      padding: 0 1rem;
+    } 
+    .cards3 .elem .icon{
+      background-color: #DADADA;
+      border-radius: .5rem;
+      font-size: 2.5rem;
+      padding: 1rem 1.2rem;
+    }
+      .cards3 .elem .icon:hover{
+        background-color: #c01010;
+        color: white;
+      }
+
+
+/* Estilos de la franja de turno.*/
+#back-turn {
+  background-color: #252525;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+  display: block;
+  padding: 3rem;
+  text-align: end;
+  text-decoration: none;
+}
+  #back-turn span{
+    border: solid 2px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: calc(1.3rem + .6vw);
+    padding: .5rem 1.5rem;
+  }
+    #back-turn span:hover{
+      border-color: #E9650D;
+      color:#E9650D;
+    }
+
+
+
+/* Barra para dejar comentario */
+#bar-leave-comment {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+  #bar-leave-comment p{
+    font-size: calc(1rem + .8vw);
+    margin-right: 2rem;
+  }
+  #bar-leave-comment a{
+    border: solid .15rem white;
+    color: white;
+    font-size: calc(1rem + .8vw);
+    padding: .5rem 1.2rem;
+    text-decoration: none;
+  }
+
+
+

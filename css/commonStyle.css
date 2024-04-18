@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Teko&display=swap');
+
+*{
+  font-family: 'Teko', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Estilos para todas las secciones. */
+.bg-orange     {background-color: rgba(164, 25, 25, 0.6);}
+.bg-black      {background-color: rgba(170, 56, 56, 0.9); color: rgb(179, 0, 0);}
+.bg-gray       {background-color: #000000;}
+.bg-gris       {background-color: #981c1c;}
+.bg-ligthgray  {background-color:#ffffff;}
+.bg-rojito     {background-color: #252525;}
+
+.ml-1 {margin-left: 1rem;}
+.mr-1 {margin-right: 1rem;}
+
+.d-flex{
+  align-items: center;
+  display: flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+
+
+
+/* Estilos del pie de página. */
+footer{
+  color: white;
+  padding: 1rem 0 1rem 0; 
+}
+  footer .copy{
+    border-top: 0.1rem solid transparent;
+    border-image: linear-gradient(90deg, rgba(63,64,64,1) 0%, rgba(255,255,255,0.5), rgba(63,64,64,1) 100%) 1;        
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(0.4rem + 0.15vw);
+    padding-top: 0.5rem; 
+    text-align: center;
+  }
+  footer .f-info{
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+  }
+    footer .f-info p{
+      font-size: calc(1rem + 0.6vw);
+      text-align: center;
+    }
+    footer .f-info .g-rs{
+      display: flex;
+      justify-content: center;
+    }
+      footer .f-info .g-rs .f-red{
+        border: solid 0.2rem white;
+        margin: 1rem 0.6rem;
+        padding: 0.6rem;
+      }
+        footer .f-info .g-rs .f-red:hover{
+          transform: scale(1.1);
+        }
+        footer .f-info .g-rs .f-red img{
+          vertical-align: middle;
+          width: 1rem;
+        }

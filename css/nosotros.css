@@ -1,0 +1,96 @@
+
+.navbar {
+  background-color: rgb(0, 0, 0); 
+}
+
+
+.nav-link,
+.navbar-brand {
+  color: rgb(255, 255, 255); 
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links a:hover {
+  background-color: gray;
+  color: #100f0f;
+}
+
+
+.nav-links a.active {
+  background-color: gray;
+  color: #100f0f;
+}
+
+.nav-link,
+.navbar-brand {
+  font-size: 28px;
+}
+
+.nav-links :hover{
+  background-color: gray!important;
+  cursor: pointer;
+  color:#100f0f;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.logo-nav{
+  cursor: pointer;
+}
+
+.imagen-cambiar-tamaño {
+ 
+  width: 100px;
+  height: auto;
+
+ 
+  transition: width 0.3s, height 0.3s;
+}
+
+.imagen-cambiar-tamaño:hover {
+
+  width: 120px;
+}
+
+
+.about-us {
+  margin: 0;
+  max-width: 1800px;
+  padding: 0 15rem;
+  text-align: justify;
+  background-color: #000000;
+}
+  .about-us h2 {
+    text-align: center;
+    font-size: calc(5rem + .5vw);
+    margin-bottom: 1.2rem;
+    color: aliceblue;
+  }
+
+  .about-us p {
+    color: #ffffff;
+    font-size: calc(1rem + .5vw);
+    margin-bottom: 0rem;
+  }
+
+  .img-left {
+    float: left;
+    margin-right: 2rem;
+    width: 300px;
+  }
+
+.texto-pequeno {
+  font-size: calc(1.8rem + .5vw)
+}

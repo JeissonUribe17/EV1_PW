@@ -1,0 +1,49 @@
+.nav-link{
+    color: #1a1a1a;
+    margin-right: 15px;
+
+}
+.nav-link:hover{
+    color: #1a1a1a;
+}
+.bg-dark{
+    min-height:50px;
+}
+.logo-empresa{
+    min-width: 100px;
+    max-width: 120px;
+    margin-left: 60px;
+}
+.navbar-toggler {
+    font-size: 40px;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    height: 70vh;
+}
+
+.small-carousel {
+    max-width: 850px; /* Define el ancho máximo del carousel */
+    margin: 0 auto;
+    ; /* Centra el carousel en la página */
+
+}
+
+.carousel-item img {
+    height: 40vh; /* Ajusta la altura de las imágenes */
+}
+
+.carousel-title {
+    font-size: 1rem; /* Ajusta el tamaño de la fuente del título */
+}
+
+.carousel-text {
+    font-size: 0.8rem; /* Ajusta el tamaño de la fuente del texto */
+}
